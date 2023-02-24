@@ -8,8 +8,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="ArmDot.Client" Version="2023.6.0" />
-    <PackageReference Include="ArmDot.Engine.MSBuildTasks" Version="2023.6.0" />
+    <PackageReference Include="ArmDot.Client" Version="2023.7.0" />
+    <PackageReference Include="ArmDot.Engine.MSBuildTasks" Version="2023.7.0" />
   </ItemGroup>
 
 <Target Name="Protect" AfterTargets="AfterCompile" BeforeTargets="BeforePublish">

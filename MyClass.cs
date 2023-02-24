@@ -1,10 +1,9 @@
 using System.Reflection;
 
-[assembly:ArmDot.Client.ObfuscateNames]
-
 namespace MyNamespace;
 
-[ArmDot.Client.ObfuscateNames(Enable = false, Inherit = false)]
+[ArmDot.Client.ObfuscateNames(Enable = true, Inherit = true)]
+[ObfuscationAttribute(Exclude = true, ApplyToMembers = false)]
 public class MyClass
 {
   public int publicProperty {get; set;}
